@@ -3,7 +3,7 @@
     "version": "1.0.3",
     "repository": {
         "type": "git",
-        "url": "https://github.com/roberto-slopez/npm-build-zip.git"
+        "url": "https://github.com/arthurpapanyan/npm-build-zip.git"
     },
     "scripts": {
         "test": "node bin/npm-build-zip.js"

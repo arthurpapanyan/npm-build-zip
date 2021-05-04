@@ -6,7 +6,7 @@ const path = require('path');
 const sanitize = require('sanitize-filename');
 const fs = require('fs')
 
-const forceReplace = process.env.FORCE_REPLACE === "true" || false
+const forceReplace = process.env.FORCE_REPLACE != "true" || false
 const archive_prefix = process.env.ARCHIVE_PREFIX || ""
 
 function handle_existing_packlist(packlist_path){
